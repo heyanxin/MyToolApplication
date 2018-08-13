@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRound">#e6e1e2</color>
+
+
+    <color name="mycustom_dialog_bg_color">#a8abac</color>
+    <color name="mycustom_dialog_title_text_color">#38ADFF</color>
+    <color name="mycustom_dialog_line_view_color">#E4E4E4</color>
+    <color name="mycustom_dialog_message_text_color">#ce240c</color>
+    <color name="mycustom_dialog_btn_cancle_text_color">#7D7D7D</color>
+    <color name="mycustom_dialog_btn_confim_text_color">#38ADFF</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyToolApplication</string>
+    <string name="display_btn_text">查看分辨率</string>
+    <string name="recyclerview_btn_text">Recyclerview使用</string>
+    <string name="customview_btn_text">自定义组件</string>
+    <string name="custom_dialog_btn_text">自定义Dialog</string>
+    <string name="test_btn_text">测试</string>
+</resources>
