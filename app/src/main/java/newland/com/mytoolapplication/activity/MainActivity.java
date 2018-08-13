@@ -6,19 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.leakcanary.RefWatcher;
 
 import newland.com.mytoolapplication.MyApplication;
 import newland.com.mytoolapplication.R;
-import newland.com.mytoolapplication.utils.LeakSingle;
-import newland.com.mytoolapplication.utils.LogUtil;
-import newland.com.mytoolapplication.view.MyCustomDialog;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener {
 
-    private final static String TAG = "";
+    private final static String TAG = "MainActivity";
 
     private Button mDisplayBtn;
     private Button mRecyclerviewBtn;
@@ -94,7 +90,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         public void run() {
             super.run();
             try {
-                Thread.sleep(6*60*1000);
+                Thread.sleep(6 * 60 * 1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
